@@ -1,0 +1,16 @@
+How to Run:
+From terminal:
+	javac playTicTacToe.java CPUPlayer.java move.java ticTacToe.java
+	java playTicTacToe
+
+Improvements:
+	When the computer makes a move, it should sum up the score at every move
+	The thought would be that the computer should choose moves that are more likely for me to make a mistake
+	The best example would be the first and second moves of the game. There is a big difference between going in square (0,0) vs. (1,2). (0,0) is much more likely to win.
+
+I think the board should be a 1-D array, rather than a 2-D array.
+	That'd be a big upgrade, but one that makes sense.
+	0 1 2
+	3 4 5
+	6 7 8
+
